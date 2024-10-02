@@ -55,7 +55,7 @@ programa
 		}
 		senao
 		{
-			escreva("Operador invélido. \n")
+			escreva("Operador inválido. \n")
 			resultado = 0
 		}
 		retorne resultado
@@ -68,7 +68,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 955; 
+ * @POSICAO-CURSOR = 974; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
