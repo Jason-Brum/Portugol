@@ -1,7 +1,15 @@
 programa
-{	
+{	
 	caracter sinal
 	inteiro n1 , n2
+
+	funcao inteiro prompt(cadeia mensagemExibida)
+	{
+		inteiro primNumero
+		escreva(mensagemExibida)
+		leia(primNumero)
+		retorne primNumero
+	}
 	
 	funcao inteiro soma(inteiro num1, inteiro num2)
 	{
@@ -26,12 +34,14 @@ programa
 	funcao inicio()
 
 	{    
-		escreva("Digite um número: \n")
-		leia(n1)
+		n1 = prompt("Informe um número: ")
+
+		
 		escreva("\nQual operação deseja realizar? Digite +, -, * ou /: \n")
 		leia(sinal)
-		escreva("\nDigite outro número: \n")
-		leia(n2)
+
+		n2 = prompt("Informe outro número: ")
+		
 
 		se (sinal == '+')
 		{
@@ -75,7 +85,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 46; 
+ * @POSICAO-CURSOR = 583; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
