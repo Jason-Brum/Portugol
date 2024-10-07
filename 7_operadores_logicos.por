@@ -16,7 +16,7 @@ programa
 		
 		estado = j1 == 'a' ou j2 == 'a' ou j3 == 'a'
 		escreva("\n Alguma janela aberta? " + estado)
-		escreva("\n Alarame desligado? ", nao estado)
+		escreva("\n Alarme desligado? ", nao estado)
 		
 		estado = j1 == 'a' e j2 == 'a' e j3 == 'a'
 		escreva("\n Todas as janelas estão abertas? " + estado)
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 105; 
+ * @POSICAO-CURSOR = 502; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
