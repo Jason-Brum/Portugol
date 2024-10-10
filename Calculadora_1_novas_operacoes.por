@@ -74,8 +74,7 @@ programa
 	
 			
 		}
-		enquanto (resposta != 'n' ou resposta != 'N')
-		
+		enquanto (resposta != 'n' e resposta != 'N')
 				
 	}
 		
@@ -85,7 +84,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1308; 
+ * @POSICAO-CURSOR = 1416; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
